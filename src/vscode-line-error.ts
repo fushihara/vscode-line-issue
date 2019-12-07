@@ -5,7 +5,7 @@ callTest().catch((error:Error)=>{
   console.log(stack);
   console.error(`end----`);
 });
-//
+//keep empty lines and comment
 //
 
 
@@ -42,5 +42,5 @@ callTest().catch((error:Error)=>{
 
 
 async function callTest(){
-  await Promise.reject(new Error("てすと"));
+  await Promise.reject(new Error("test"));
 }
